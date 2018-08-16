@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTCatalog'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'Tools for building a Catalog by Convention.'
   s.homepage         = 'https://github.com/liuxc123/GTCatalog'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
