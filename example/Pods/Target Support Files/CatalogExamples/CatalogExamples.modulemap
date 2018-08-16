@@ -1,0 +1,6 @@
+framework module CatalogExamples {
+  umbrella header "CatalogExamples-umbrella.h"
+
+  export *
+  module * { export * }
+}

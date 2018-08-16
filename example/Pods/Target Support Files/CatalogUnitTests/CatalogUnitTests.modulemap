@@ -1,0 +1,6 @@
+framework module CatalogUnitTests {
+  umbrella header "CatalogUnitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Resistor {
+  umbrella header "Resistor-umbrella.h"
+
+  export *
+  module * { export * }
+}

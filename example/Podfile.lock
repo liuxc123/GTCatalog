@@ -1,0 +1,31 @@
+PODS:
+  - CatalogExamples (1.0.0)
+  - CatalogUnitTests (1.0.0)
+  - GTCatalog (0.1.0)
+  - Resistor (1.0.0)
+
+DEPENDENCIES:
+  - CatalogExamples (from `./`)
+  - CatalogUnitTests (from `./`)
+  - GTCatalog (from `../`)
+  - Resistor (from `components/Resistor`)
+
+EXTERNAL SOURCES:
+  CatalogExamples:
+    :path: "./"
+  CatalogUnitTests:
+    :path: "./"
+  GTCatalog:
+    :path: "../"
+  Resistor:
+    :path: components/Resistor
+
+SPEC CHECKSUMS:
+  CatalogExamples: 9961854cc1141799faf75a7362f2a8a59d89262d
+  CatalogUnitTests: 8036453f315454e2b0a275cb611e20dea275e8c6
+  GTCatalog: 494e860f54842dca0db1bfa4662dd9d4df99350e
+  Resistor: a17e39cab5f42993c2b3ede22ce3829b707a9ac8
+
+PODFILE CHECKSUM: abfe2777421d3c3303067245a2ef35e24382bd15
+
+COCOAPODS: 1.5.0

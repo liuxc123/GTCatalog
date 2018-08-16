@@ -1,0 +1,24 @@
+{
+  "name": "CatalogExamples",
+  "version": "1.0.0",
+  "summary": "Convention for catalog examples.",
+  "homepage": "https://github.com/your/repo",
+  "authors": "Catalog",
+  "license": "Apache 2.0",
+  "source": {
+    "git": "https://github.com/your/repo.git",
+    "tag": "1.0.0"
+  },
+  "requires_arc": true,
+  "source_files": "components/*/examples/*.{h,m,swift}",
+  "public_header_files": "components/*/examples/*.h",
+  "resources": [
+    "components/*/examples/resources/*"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Resistor",
+  "version": "1.0.0",
+  "summary": "An example component.",
+  "homepage": "https://github.com/google/catalog-by-convention",
+  "authors": "Google Inc.",
+  "license": "Apache 2.0",
+  "source": {
+    "git": "https://github.com/google/catalog-by-convention.git",
+    "tag": "v1.0.0"
+  },
+  "requires_arc": true,
+  "public_header_files": "src/*.h",
+  "source_files": "src/*.{h,m,swift}",
+  "header_mappings_dir": "src/*",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

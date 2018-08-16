@@ -1,0 +1,1384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074EAF9573924309732DF7FFA48A1F24 /* RESParallelResistorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A9ECC31668084184175AEA0B92918C /* RESParallelResistorTests.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BE6B3C1E2A1E65A32478B107CDA2B61 /* Pods-Catalog-Catalog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAABCCD480149D8D522D2C12A7FB737F /* Pods-Catalog-Catalog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112FC4CB2EC27BD40867DBE9DC412CA1 /* GTFCatalogExample.h in Headers */ = {isa = PBXBuildFile; fileRef = D912993A7BC6789D004AF7F1ED6D4ABF /* GTFCatalogExample.h */; };
+		1F26F3CAE745DEA76596F9A0CB07E865 /* RESSeriesResistor.m in Sources */ = {isa = PBXBuildFile; fileRef = 702232CC072C4BB4DECE84A190916DBB /* RESSeriesResistor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20CEFA651FA41096C61CE56074767DEE /* RESSeriesResistor.h in Copy .. Public Headers */ = {isa = PBXBuildFile; fileRef = BAA52853562C1B0F427B618CFF1946C5 /* RESSeriesResistor.h */; };
+		275DA4C0D86879852DDCAC318E3B2670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		296CA30896571A7F29267A6B599A50B7 /* Resistor.h in Copy .. Public Headers */ = {isa = PBXBuildFile; fileRef = B48B6BC0B8A1EADB14FACD49AF44BFF6 /* Resistor.h */; };
+		2C8577A16D5B1D7571525CC6EE9A9237 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
+		466C48972C72E0307918B98D443F80A7 /* CatalogUnitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91D5F9B9716443C32BD660B96BDAAFA /* CatalogUnitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C70A3F7833A5B0F536E599C6B7A1C17 /* GTFNodeListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D77F75F5E7541FD30569123E78905A05 /* GTFNodeListViewController.h */; };
+		4E41DAE6F7F4CB85F316A3CF814E439A /* GTCatalog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C572C82F22D02C2F5BCE2FC5C62E2DD /* GTCatalog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5018CF8E983079D2AD0BA2660BD2CEE2 /* Resistor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA796AE0DF83489809CE039A2291B8D /* Resistor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C4CF3632665AE01562398D4A847F08E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		5CC5C69815FD0AF75FC8B7AA56A60DEF /* GTFNodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49840319CD517F7CFD6900D682D83A37 /* GTFNodeListViewController.m */; };
+		62CF264446843A9B372484AFF1BF40AC /* CatalogUnitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 613162580B94A25CDD0C85BA7F5AD232 /* CatalogUnitTests-dummy.m */; };
+		6467C4086E83E72FFBF9D3F8A98446C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		69BD40E6B337040CC3A3745C937960E3 /* ParallelResistorExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 548EA5A80EDFE632A6BCA247BEF1213B /* ParallelResistorExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74321D6191688088CBC77EAD263C94A7 /* GTCatalog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6042900C6936BFB24C6287C403A04 /* GTCatalog-dummy.m */; };
+		7917944CF4AC9BF071CA90A3AEE9C341 /* Pods-Catalog-Catalog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F775C268FF663B6B9A06544FF1C56D2 /* Pods-Catalog-Catalog-dummy.m */; };
+		7D1E0839AE128BB7945FA5B43C277D65 /* GTCatalog.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2DA094B5AEE97E10EA677DBEEC85E7 /* GTCatalog.h */; };
+		8D87882000A1460682B9B41844D21F7B /* GTFCatalogExample.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D912993A7BC6789D004AF7F1ED6D4ABF /* GTFCatalogExample.h */; };
+		9C57FC7EC8EEFCA2032B59F377097078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		9C5C2A52FACA36A0AD33E92035DF2B84 /* RESParallelResistor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF74B551E6348776884025F8C42DDC3 /* RESParallelResistor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E1DDB186CC23FC8E8437B97E82870A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		ABB7A3224B6709C6AFC639AF1315B711 /* GTFNodeListViewController.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D77F75F5E7541FD30569123E78905A05 /* GTFNodeListViewController.h */; };
+		AEA2CE3A997363592B5F6B4A9FAC5B8D /* Resistor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F9011C8F947459CDD0F8D61A0F5B2A /* Resistor-dummy.m */; };
+		B456D89D80E3D8FEEFC8E11137B06660 /* SeriesExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E25F7D62D99ACE3B071D5685E6BDF7 /* SeriesExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF42A595A0BEE0836785A3BBAD509022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		C11B458F5989B1712AA1D5DEEC964ABB /* RESParallelResistor.h in Copy .. Public Headers */ = {isa = PBXBuildFile; fileRef = 9C8C2A424E48C59B401F0B7EB365104A /* RESParallelResistor.h */; };
+		C7A2B9F98C66105A44E58D98F49E8A8F /* CatalogExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BDBB9661F6623E7A2004887B1345F /* CatalogExamples-dummy.m */; };
+		CA5FA363EDFC60EA7BC8094974118DE8 /* Pods-Catalog-UnitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5205057E4958D53609087F3092B66D /* Pods-Catalog-UnitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC4611A256CF23479FCA11C761F62558 /* GTFRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E74954D86823C9E157FA6448F89419 /* GTFRuntime.m */; };
+		E08AF1F44A17CA955C7E5A9AF792427A /* Pods-Catalog-UnitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B004049D5C79E3AF8D5CAB3BABB0E803 /* Pods-Catalog-UnitTests-dummy.m */; };
+		E4F9287867233C4D1A54D827957237CD /* GTFRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5B3F91D2791964BE25A55889B11D03 /* GTFRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E562DF59FD24D811C3010F1CC5421812 /* RESSeriesResistor.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA52853562C1B0F427B618CFF1946C5 /* RESSeriesResistor.h */; };
+		F05680201438D76BBC1389FEE93A0ED8 /* CatalogExamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D57E2C5AC6D8DA81CE4D2725396F6A /* CatalogExamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F381214744222C04D19975ECF79068D4 /* RESParallelResistor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8C2A424E48C59B401F0B7EB365104A /* RESParallelResistor.h */; };
+		F8F33DC4297E75CC4B19A12187D8A5AF /* Resistor.h in Headers */ = {isa = PBXBuildFile; fileRef = B48B6BC0B8A1EADB14FACD49AF44BFF6 /* Resistor.h */; };
+		FA85F317A04DA0DC067BD012A5026DCA /* GTCatalog.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = CA2DA094B5AEE97E10EA677DBEEC85E7 /* GTCatalog.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29DB0C8DA98469B193CC65EBFE02AA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A583E43C6259F242DDBE2D3B9DC117;
+			remoteInfo = CatalogUnitTests;
+		};
+		29DF7A42579AEFFD28F7B73CE39E9E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038267B797675C166151619E10594B9A;
+			remoteInfo = CatalogExamples;
+		};
+		52BBFEE2A0469BFA44E768974E8E2C8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 640DDFA196AD87B2711875C6E2217B75;
+			remoteInfo = Resistor;
+		};
+		C302414DBB2A1E4F2E24EF17629D1DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688A67C0E5F60FA3D9A0A044F5BC385B;
+			remoteInfo = GTCatalog;
+		};
+		C3D4D9CA92C432F369932C0AFCB85A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688A67C0E5F60FA3D9A0A044F5BC385B;
+			remoteInfo = GTCatalog;
+		};
+		F640B305DCB5CE5F5D01071A49D995E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 640DDFA196AD87B2711875C6E2217B75;
+			remoteInfo = Resistor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9F9AFA938A59A2E928C58FA4E4EAD95 /* Copy .. Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/..";
+			dstSubfolderSpec = 16;
+			files = (
+				296CA30896571A7F29267A6B599A50B7 /* Resistor.h in Copy .. Public Headers */,
+				C11B458F5989B1712AA1D5DEEC964ABB /* RESParallelResistor.h in Copy .. Public Headers */,
+				20CEFA651FA41096C61CE56074767DEE /* RESSeriesResistor.h in Copy .. Public Headers */,
+			);
+			name = "Copy .. Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF042B9FC353BBFB2983A54CCE99E2E3 /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				FA85F317A04DA0DC067BD012A5026DCA /* GTCatalog.h in Copy . Public Headers */,
+				8D87882000A1460682B9B41844D21F7B /* GTFCatalogExample.h in Copy . Public Headers */,
+				ABB7A3224B6709C6AFC639AF1315B711 /* GTFNodeListViewController.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		056BDCF11D4B918CD362438C187EC059 /* Pods-Catalog-Catalog-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Catalog-Catalog-frameworks.sh"; sourceTree = "<group>"; };
+		09C95F9CF3F5A0E0196B10ABAE0FC530 /* Pods-Catalog-Catalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Catalog-Catalog.modulemap"; sourceTree = "<group>"; };
+		0FC8EC287AEC41E4D728F651967E2B2A /* Pods-Catalog-Catalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Catalog-Catalog.release.xcconfig"; sourceTree = "<group>"; };
+		1085F091A9CDE9F5D0FCE4C408346BC2 /* Pods-Catalog-UnitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Catalog-UnitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11A9ECC31668084184175AEA0B92918C /* RESParallelResistorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESParallelResistorTests.m; path = components/Resistor/tests/unit/RESParallelResistorTests.m; sourceTree = "<group>"; };
+		137A6FF5B908298D5CBDBE9ACCFF7A14 /* GTCatalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTCatalog.modulemap; sourceTree = "<group>"; };
+		19739E7933F9C7230C74098F0C1B92A1 /* CatalogExamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CatalogExamples.modulemap; sourceTree = "<group>"; };
+		19E2A162EFFE0D71908CA9F993CD5CB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3020C22324CF54EA23EBE485245384F8 /* GTCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTCatalog.framework; path = GTCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA86115CA7377423E41F87F438051D /* Pods-Catalog-Catalog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Catalog-Catalog-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31419665EF4EED053C34A5B99664CF57 /* CatalogExamples-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalogExamples-prefix.pch"; sourceTree = "<group>"; };
+		31E74954D86823C9E157FA6448F89419 /* GTFRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTFRuntime.m; sourceTree = "<group>"; };
+		333C85BA8CA48B7BC5588023A30C42A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350431556FE383C60A4EBF3F7C0CC51A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		377E08B0A94D0F1668D0AA408A499832 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49840319CD517F7CFD6900D682D83A37 /* GTFNodeListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFNodeListViewController.m; path = src/GTFNodeListViewController.m; sourceTree = "<group>"; };
+		50D631476327FD021EA40AE418436754 /* CatalogExamples.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CatalogExamples.xcconfig; sourceTree = "<group>"; };
+		50FE5284883C43AA9BD4BA1177C328F4 /* Pods-Catalog-Catalog-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Catalog-Catalog-resources.sh"; sourceTree = "<group>"; };
+		548EA5A80EDFE632A6BCA247BEF1213B /* ParallelResistorExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParallelResistorExample.m; path = components/Resistor/examples/ParallelResistorExample.m; sourceTree = "<group>"; };
+		56DCCCE3F6DAEB7AAD282AB73D243D32 /* CatalogUnitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CatalogUnitTests.modulemap; sourceTree = "<group>"; };
+		5A0AE9D9CCF824F1C62FBD7DA95CE72A /* CatalogUnitTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalogUnitTests-prefix.pch"; sourceTree = "<group>"; };
+		5A634F28456753EA938C16A558660847 /* Pods-Catalog-UnitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Catalog-UnitTests-resources.sh"; sourceTree = "<group>"; };
+		5AA796AE0DF83489809CE039A2291B8D /* Resistor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Resistor-umbrella.h"; sourceTree = "<group>"; };
+		5F775C268FF663B6B9A06544FF1C56D2 /* Pods-Catalog-Catalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Catalog-Catalog-dummy.m"; sourceTree = "<group>"; };
+		613162580B94A25CDD0C85BA7F5AD232 /* CatalogUnitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CatalogUnitTests-dummy.m"; sourceTree = "<group>"; };
+		6289C31D5C29E6E5A509D4CC5609B6F2 /* Pods_Catalog_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Catalog_UnitTests.framework; path = "Pods-Catalog-UnitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6424AEA56F2ECB62408C84E1ABC64E4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646A80FFECF10D9B3CC192DBDA3EDB1F /* GTCatalog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCatalog-prefix.pch"; sourceTree = "<group>"; };
+		68D2979A15D27367A916BEE083D5B66F /* Pods_Catalog_Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Catalog_Catalog.framework; path = "Pods-Catalog-Catalog.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702232CC072C4BB4DECE84A190916DBB /* RESSeriesResistor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESSeriesResistor.m; path = src/RESSeriesResistor.m; sourceTree = "<group>"; };
+		71E5AE6C6438177368E0256903B3D06B /* Resistor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Resistor.framework; path = Resistor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726CEF20DE9B70B83823D75BDF92249F /* CatalogExamples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CatalogExamples.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73F58D3968CEAD5199B71DB8C971C70D /* CatalogUnitTests.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CatalogUnitTests.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79485CA3D873085EC92A3B188EA0F23B /* CatalogUnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CatalogUnitTests.framework; path = CatalogUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D9DFF852A398EB97A2927463C440C9 /* Pods-Catalog-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Catalog-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C572C82F22D02C2F5BCE2FC5C62E2DD /* GTCatalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCatalog-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946B10866E923CF7125803E1F7093B18 /* Pods-Catalog-UnitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Catalog-UnitTests.modulemap"; sourceTree = "<group>"; };
+		9C8C2A424E48C59B401F0B7EB365104A /* RESParallelResistor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESParallelResistor.h; path = src/RESParallelResistor.h; sourceTree = "<group>"; };
+		9CC6042900C6936BFB24C6287C403A04 /* GTCatalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTCatalog-dummy.m"; sourceTree = "<group>"; };
+		A3A3422E4936B5E58E3A776CE2F42184 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4237B4F2E87C2DB99630EA15004B2F7 /* Resistor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Resistor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A43BDBB9661F6623E7A2004887B1345F /* CatalogExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CatalogExamples-dummy.m"; sourceTree = "<group>"; };
+		AF5B3F91D2791964BE25A55889B11D03 /* GTFRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTFRuntime.h; sourceTree = "<group>"; };
+		B004049D5C79E3AF8D5CAB3BABB0E803 /* Pods-Catalog-UnitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Catalog-UnitTests-dummy.m"; sourceTree = "<group>"; };
+		B00A57C64691BC806E7B8F9D4836E1D1 /* Pods-Catalog-Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Catalog-Catalog.debug.xcconfig"; sourceTree = "<group>"; };
+		B48B6BC0B8A1EADB14FACD49AF44BFF6 /* Resistor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Resistor.h; path = src/Resistor.h; sourceTree = "<group>"; };
+		B576DE51C0F03A413BB86B9A7CBDB507 /* Resistor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Resistor.xcconfig; sourceTree = "<group>"; };
+		B664DE43304E504BA3CD319437A89D75 /* GTCatalog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTCatalog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9292989F02EAEDAD9D7460F53BDC87F /* CatalogExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CatalogExamples.framework; path = CatalogExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA52853562C1B0F427B618CFF1946C5 /* RESSeriesResistor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESSeriesResistor.h; path = src/RESSeriesResistor.h; sourceTree = "<group>"; };
+		C22F841C8F2DE7003CA8640F84B8D92F /* Pods-Catalog-UnitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Catalog-UnitTests-frameworks.sh"; sourceTree = "<group>"; };
+		C3D57E2C5AC6D8DA81CE4D2725396F6A /* CatalogExamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalogExamples-umbrella.h"; sourceTree = "<group>"; };
+		C448B02DB3B9CC51BDE833E726553DAC /* GTCatalog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTCatalog.xcconfig; sourceTree = "<group>"; };
+		C8F9011C8F947459CDD0F8D61A0F5B2A /* Resistor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Resistor-dummy.m"; sourceTree = "<group>"; };
+		C99E81D69F529263F1B26AD3B62F101C /* Pods-Catalog-Catalog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Catalog-Catalog-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA2DA094B5AEE97E10EA677DBEEC85E7 /* GTCatalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCatalog.h; path = src/GTCatalog.h; sourceTree = "<group>"; };
+		CAABCCD480149D8D522D2C12A7FB737F /* Pods-Catalog-Catalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Catalog-Catalog-umbrella.h"; sourceTree = "<group>"; };
+		CD5205057E4958D53609087F3092B66D /* Pods-Catalog-UnitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Catalog-UnitTests-umbrella.h"; sourceTree = "<group>"; };
+		CD7F124FC265B6553B75F6062E6D2F11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E25F7D62D99ACE3B071D5685E6BDF7 /* SeriesExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SeriesExample.m; path = components/Resistor/examples/SeriesExample.m; sourceTree = "<group>"; };
+		D77F75F5E7541FD30569123E78905A05 /* GTFNodeListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFNodeListViewController.h; path = src/GTFNodeListViewController.h; sourceTree = "<group>"; };
+		D912993A7BC6789D004AF7F1ED6D4ABF /* GTFCatalogExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFCatalogExample.h; path = src/GTFCatalogExample.h; sourceTree = "<group>"; };
+		DCF74B551E6348776884025F8C42DDC3 /* RESParallelResistor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESParallelResistor.m; path = src/RESParallelResistor.m; sourceTree = "<group>"; };
+		DDE19431A89239A83E97C6696EA99AF9 /* Resistor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Resistor-prefix.pch"; sourceTree = "<group>"; };
+		E3FE317A2655F1DC97BD7F0E7EFF8B5B /* Pods-Catalog-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Catalog-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E87ECD9E69EC5050B4149D7C95F93A40 /* CatalogUnitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CatalogUnitTests.xcconfig; sourceTree = "<group>"; };
+		E913A7CF2A9CA69AAE076F045D00A54D /* Resistor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Resistor.modulemap; sourceTree = "<group>"; };
+		E91D5F9B9716443C32BD660B96BDAAFA /* CatalogUnitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalogUnitTests-umbrella.h"; sourceTree = "<group>"; };
+		EA6EFC04BF1BD17FCD288EDCCCF891AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9CE5E12E06CA7C2A25A55A17D14A43 /* Pods-Catalog-UnitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Catalog-UnitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F159700EDD7507E7CC58D53A8086F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C57FC7EC8EEFCA2032B59F377097078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B391DF03B2DBCF1CA2A8CDC7693223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF42A595A0BEE0836785A3BBAD509022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF15CEA0838C6D3B8D7D5546DDAE27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6467C4086E83E72FFBF9D3F8A98446C8 /* Foundation.framework in Frameworks */,
+				2C8577A16D5B1D7571525CC6EE9A9237 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45F4966F09C9BCADFE8FD62E7FFF275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275DA4C0D86879852DDCAC318E3B2670 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65381AB1764EE96A3C63CAE7ECB0E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4CF3632665AE01562398D4A847F08E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8239024484DDA937E6D3C65E7E357CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1DDB186CC23FC8E8437B97E82870A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160607790C3FF9E7E71E762AE1EC7084 /* CatalogExamples */ = {
+			isa = PBXGroup;
+			children = (
+				548EA5A80EDFE632A6BCA247BEF1213B /* ParallelResistorExample.m */,
+				D0E25F7D62D99ACE3B071D5685E6BDF7 /* SeriesExample.m */,
+				69BC05B43BE815AECB6F887859172932 /* Pod */,
+				4814201B03EBE7BF4BD23110FB5EC795 /* Support Files */,
+			);
+			name = CatalogExamples;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		43263C35AFA39CFBEF6EE981128E1661 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6424AEA56F2ECB62408C84E1ABC64E4A /* Info.plist */,
+				E913A7CF2A9CA69AAE076F045D00A54D /* Resistor.modulemap */,
+				B576DE51C0F03A413BB86B9A7CBDB507 /* Resistor.xcconfig */,
+				C8F9011C8F947459CDD0F8D61A0F5B2A /* Resistor-dummy.m */,
+				DDE19431A89239A83E97C6696EA99AF9 /* Resistor-prefix.pch */,
+				5AA796AE0DF83489809CE039A2291B8D /* Resistor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Resistor";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4814201B03EBE7BF4BD23110FB5EC795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19739E7933F9C7230C74098F0C1B92A1 /* CatalogExamples.modulemap */,
+				50D631476327FD021EA40AE418436754 /* CatalogExamples.xcconfig */,
+				A43BDBB9661F6623E7A2004887B1345F /* CatalogExamples-dummy.m */,
+				31419665EF4EED053C34A5B99664CF57 /* CatalogExamples-prefix.pch */,
+				C3D57E2C5AC6D8DA81CE4D2725396F6A /* CatalogExamples-umbrella.h */,
+				333C85BA8CA48B7BC5588023A30C42A1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CatalogExamples";
+			sourceTree = "<group>";
+		};
+		4E692933622482C37C4DE86F5FE6CD24 /* Pods-Catalog-UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F124FC265B6553B75F6062E6D2F11 /* Info.plist */,
+				946B10866E923CF7125803E1F7093B18 /* Pods-Catalog-UnitTests.modulemap */,
+				FC9CE5E12E06CA7C2A25A55A17D14A43 /* Pods-Catalog-UnitTests-acknowledgements.markdown */,
+				1085F091A9CDE9F5D0FCE4C408346BC2 /* Pods-Catalog-UnitTests-acknowledgements.plist */,
+				B004049D5C79E3AF8D5CAB3BABB0E803 /* Pods-Catalog-UnitTests-dummy.m */,
+				C22F841C8F2DE7003CA8640F84B8D92F /* Pods-Catalog-UnitTests-frameworks.sh */,
+				5A634F28456753EA938C16A558660847 /* Pods-Catalog-UnitTests-resources.sh */,
+				CD5205057E4958D53609087F3092B66D /* Pods-Catalog-UnitTests-umbrella.h */,
+				E3FE317A2655F1DC97BD7F0E7EFF8B5B /* Pods-Catalog-UnitTests.debug.xcconfig */,
+				83D9DFF852A398EB97A2927463C440C9 /* Pods-Catalog-UnitTests.release.xcconfig */,
+			);
+			name = "Pods-Catalog-UnitTests";
+			path = "Target Support Files/Pods-Catalog-UnitTests";
+			sourceTree = "<group>";
+		};
+		69BC05B43BE815AECB6F887859172932 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				726CEF20DE9B70B83823D75BDF92249F /* CatalogExamples.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A7821A63308F73F0BCAC30146E0575B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				73F58D3968CEAD5199B71DB8C971C70D /* CatalogUnitTests.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C57A67057D44C9A3265358F7B3C2DE4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				160607790C3FF9E7E71E762AE1EC7084 /* CatalogExamples */,
+				738699CFD716FBA7CEB1484A9A11DC23 /* CatalogUnitTests */,
+				8D9E505D2F9BBD09FD495DBB8507BA48 /* GTCatalog */,
+				D7D72EA2DB9D19410FB0BC6298196DDE /* Resistor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6DF05709535983600AB9BB2F65E2F9F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9292989F02EAEDAD9D7460F53BDC87F /* CatalogExamples.framework */,
+				79485CA3D873085EC92A3B188EA0F23B /* CatalogUnitTests.framework */,
+				3020C22324CF54EA23EBE485245384F8 /* GTCatalog.framework */,
+				68D2979A15D27367A916BEE083D5B66F /* Pods_Catalog_Catalog.framework */,
+				6289C31D5C29E6E5A509D4CC5609B6F2 /* Pods_Catalog_UnitTests.framework */,
+				71E5AE6C6438177368E0256903B3D06B /* Resistor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738699CFD716FBA7CEB1484A9A11DC23 /* CatalogUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A9ECC31668084184175AEA0B92918C /* RESParallelResistorTests.m */,
+				6A7821A63308F73F0BCAC30146E0575B /* Pod */,
+				85249B5EF092A72D8C06A87B6BE1A62E /* Support Files */,
+			);
+			name = CatalogUnitTests;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		74A7218D0AFAE02746CB10FFED905B75 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B664DE43304E504BA3CD319437A89D75 /* GTCatalog.podspec */,
+				19E2A162EFFE0D71908CA9F993CD5CB3 /* LICENSE */,
+				350431556FE383C60A4EBF3F7C0CC51A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		787BBE40BA23F9C5A0AF34D8630E5BB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				137A6FF5B908298D5CBDBE9ACCFF7A14 /* GTCatalog.modulemap */,
+				C448B02DB3B9CC51BDE833E726553DAC /* GTCatalog.xcconfig */,
+				9CC6042900C6936BFB24C6287C403A04 /* GTCatalog-dummy.m */,
+				646A80FFECF10D9B3CC192DBDA3EDB1F /* GTCatalog-prefix.pch */,
+				8C572C82F22D02C2F5BCE2FC5C62E2DD /* GTCatalog-umbrella.h */,
+				EA6EFC04BF1BD17FCD288EDCCCF891AA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "example/Pods/Target Support Files/GTCatalog";
+			sourceTree = "<group>";
+		};
+		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
+				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6C57A67057D44C9A3265358F7B3C2DE4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6DF05709535983600AB9BB2F65E2F9F2 /* Products */,
+				D06C83A3A8626BDE8567BF64CC321F98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8125147C324AA52F6C3712A1D47AF7E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A4237B4F2E87C2DB99630EA15004B2F7 /* Resistor.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		85249B5EF092A72D8C06A87B6BE1A62E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DCCCE3F6DAEB7AAD282AB73D243D32 /* CatalogUnitTests.modulemap */,
+				E87ECD9E69EC5050B4149D7C95F93A40 /* CatalogUnitTests.xcconfig */,
+				613162580B94A25CDD0C85BA7F5AD232 /* CatalogUnitTests-dummy.m */,
+				5A0AE9D9CCF824F1C62FBD7DA95CE72A /* CatalogUnitTests-prefix.pch */,
+				E91D5F9B9716443C32BD660B96BDAAFA /* CatalogUnitTests-umbrella.h */,
+				A3A3422E4936B5E58E3A776CE2F42184 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/CatalogUnitTests";
+			sourceTree = "<group>";
+		};
+		87678493002334381AD28643466A0062 /* Pods-Catalog-Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				377E08B0A94D0F1668D0AA408A499832 /* Info.plist */,
+				09C95F9CF3F5A0E0196B10ABAE0FC530 /* Pods-Catalog-Catalog.modulemap */,
+				30BA86115CA7377423E41F87F438051D /* Pods-Catalog-Catalog-acknowledgements.markdown */,
+				C99E81D69F529263F1B26AD3B62F101C /* Pods-Catalog-Catalog-acknowledgements.plist */,
+				5F775C268FF663B6B9A06544FF1C56D2 /* Pods-Catalog-Catalog-dummy.m */,
+				056BDCF11D4B918CD362438C187EC059 /* Pods-Catalog-Catalog-frameworks.sh */,
+				50FE5284883C43AA9BD4BA1177C328F4 /* Pods-Catalog-Catalog-resources.sh */,
+				CAABCCD480149D8D522D2C12A7FB737F /* Pods-Catalog-Catalog-umbrella.h */,
+				B00A57C64691BC806E7B8F9D4836E1D1 /* Pods-Catalog-Catalog.debug.xcconfig */,
+				0FC8EC287AEC41E4D728F651967E2B2A /* Pods-Catalog-Catalog.release.xcconfig */,
+			);
+			name = "Pods-Catalog-Catalog";
+			path = "Target Support Files/Pods-Catalog-Catalog";
+			sourceTree = "<group>";
+		};
+		8D9E505D2F9BBD09FD495DBB8507BA48 /* GTCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DA094B5AEE97E10EA677DBEEC85E7 /* GTCatalog.h */,
+				D912993A7BC6789D004AF7F1ED6D4ABF /* GTFCatalogExample.h */,
+				D77F75F5E7541FD30569123E78905A05 /* GTFNodeListViewController.h */,
+				49840319CD517F7CFD6900D682D83A37 /* GTFNodeListViewController.m */,
+				74A7218D0AFAE02746CB10FFED905B75 /* Pod */,
+				F98F66F7911781D268613DBA5F91A50D /* private */,
+				787BBE40BA23F9C5A0AF34D8630E5BB0 /* Support Files */,
+			);
+			name = GTCatalog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D06C83A3A8626BDE8567BF64CC321F98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87678493002334381AD28643466A0062 /* Pods-Catalog-Catalog */,
+				4E692933622482C37C4DE86F5FE6CD24 /* Pods-Catalog-UnitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D7D72EA2DB9D19410FB0BC6298196DDE /* Resistor */ = {
+			isa = PBXGroup;
+			children = (
+				B48B6BC0B8A1EADB14FACD49AF44BFF6 /* Resistor.h */,
+				9C8C2A424E48C59B401F0B7EB365104A /* RESParallelResistor.h */,
+				DCF74B551E6348776884025F8C42DDC3 /* RESParallelResistor.m */,
+				BAA52853562C1B0F427B618CFF1946C5 /* RESSeriesResistor.h */,
+				702232CC072C4BB4DECE84A190916DBB /* RESSeriesResistor.m */,
+				8125147C324AA52F6C3712A1D47AF7E4 /* Pod */,
+				43263C35AFA39CFBEF6EE981128E1661 /* Support Files */,
+			);
+			name = Resistor;
+			path = ../components/Resistor;
+			sourceTree = "<group>";
+		};
+		F98F66F7911781D268613DBA5F91A50D /* private */ = {
+			isa = PBXGroup;
+			children = (
+				AF5B3F91D2791964BE25A55889B11D03 /* GTFRuntime.h */,
+				31E74954D86823C9E157FA6448F89419 /* GTFRuntime.m */,
+			);
+			name = private;
+			path = src/private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EDCA701798682BB03A09FA99D21A1A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E41DAE6F7F4CB85F316A3CF814E439A /* GTCatalog-umbrella.h in Headers */,
+				7D1E0839AE128BB7945FA5B43C277D65 /* GTCatalog.h in Headers */,
+				112FC4CB2EC27BD40867DBE9DC412CA1 /* GTFCatalogExample.h in Headers */,
+				4C70A3F7833A5B0F536E599C6B7A1C17 /* GTFNodeListViewController.h in Headers */,
+				E4F9287867233C4D1A54D827957237CD /* GTFRuntime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A11D2ED1386D4C7F1A904C9D9536F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE6B3C1E2A1E65A32478B107CDA2B61 /* Pods-Catalog-Catalog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C147956AA1F972001F8EA12A2CDBB8B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05680201438D76BBC1389FEE93A0ED8 /* CatalogExamples-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1E571AE27B84C6CF368C002D5B5563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5FA363EDFC60EA7BC8094974118DE8 /* Pods-Catalog-UnitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF73C5251F03A692485FBA6E1B6515A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466C48972C72E0307918B98D443F80A7 /* CatalogUnitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9648B0309A96A49AFFCC95B2CDCB9E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5018CF8E983079D2AD0BA2660BD2CEE2 /* Resistor-umbrella.h in Headers */,
+				F8F33DC4297E75CC4B19A12187D8A5AF /* Resistor.h in Headers */,
+				F381214744222C04D19975ECF79068D4 /* RESParallelResistor.h in Headers */,
+				E562DF59FD24D811C3010F1CC5421812 /* RESSeriesResistor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		038267B797675C166151619E10594B9A /* CatalogExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B3FF3AC0378FD17846DBCC24B2E3FD /* Build configuration list for PBXNativeTarget "CatalogExamples" */;
+			buildPhases = (
+				83CDEBD8541DF656379105736186FA46 /* Sources */,
+				87B391DF03B2DBCF1CA2A8CDC7693223 /* Frameworks */,
+				C147956AA1F972001F8EA12A2CDBB8B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatalogExamples;
+			productName = CatalogExamples;
+			productReference = B9292989F02EAEDAD9D7460F53BDC87F /* CatalogExamples.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		512EF039C4AACE5934A42541A9834DE1 /* Pods-Catalog-Catalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F6F62D89355F1EB44098703740B4FF /* Build configuration list for PBXNativeTarget "Pods-Catalog-Catalog" */;
+			buildPhases = (
+				72593420A5DE52571A911B637DE60BA6 /* Sources */,
+				E8239024484DDA937E6D3C65E7E357CB /* Frameworks */,
+				59A11D2ED1386D4C7F1A904C9D9536F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3FF7D177EC7DA102930D2C7D99B3B4 /* PBXTargetDependency */,
+				CD92F466609983B4C286B9511794B00E /* PBXTargetDependency */,
+				3AD9151BC996AF530F7A7395E2A2E9AF /* PBXTargetDependency */,
+			);
+			name = "Pods-Catalog-Catalog";
+			productName = "Pods-Catalog-Catalog";
+			productReference = 68D2979A15D27367A916BEE083D5B66F /* Pods_Catalog_Catalog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		640DDFA196AD87B2711875C6E2217B75 /* Resistor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4B94D7CDB2AD2D8AE8E6F06C659861 /* Build configuration list for PBXNativeTarget "Resistor" */;
+			buildPhases = (
+				DD619D2A35A1F5D4FC0511CB0954CAD7 /* Sources */,
+				E65381AB1764EE96A3C63CAE7ECB0E47 /* Frameworks */,
+				F9648B0309A96A49AFFCC95B2CDCB9E5 /* Headers */,
+				E9F9AFA938A59A2E928C58FA4E4EAD95 /* Copy .. Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resistor;
+			productName = Resistor;
+			productReference = 71E5AE6C6438177368E0256903B3D06B /* Resistor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AF60ECAB7BCD088E278E0C0DF722FB /* Build configuration list for PBXNativeTarget "GTCatalog" */;
+			buildPhases = (
+				43D273EF5EC0AAC5C98E7370A5C14F76 /* Sources */,
+				75F159700EDD7507E7CC58D53A8086F5 /* Frameworks */,
+				0EDCA701798682BB03A09FA99D21A1A4 /* Headers */,
+				EF042B9FC353BBFB2983A54CCE99E2E3 /* Copy . Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTCatalog;
+			productName = GTCatalog;
+			productReference = 3020C22324CF54EA23EBE485245384F8 /* GTCatalog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9A583E43C6259F242DDBE2D3B9DC117 /* CatalogUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FC871685D2E2438E6CE7E803932CC8 /* Build configuration list for PBXNativeTarget "CatalogUnitTests" */;
+			buildPhases = (
+				A79007F2465C1487720081BEB74F1B8B /* Sources */,
+				8BF15CEA0838C6D3B8D7D5546DDAE27F /* Frameworks */,
+				DF73C5251F03A692485FBA6E1B6515A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatalogUnitTests;
+			productName = CatalogUnitTests;
+			productReference = 79485CA3D873085EC92A3B188EA0F23B /* CatalogUnitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2335F6FD61483AAC8A9A37598501F75 /* Pods-Catalog-UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B297AAE03896391ACAAFE04CDC956F /* Build configuration list for PBXNativeTarget "Pods-Catalog-UnitTests" */;
+			buildPhases = (
+				6F5BC64D0D8791E23740DAD151546983 /* Sources */,
+				A45F4966F09C9BCADFE8FD62E7FFF275 /* Frameworks */,
+				CD1E571AE27B84C6CF368C002D5B5563 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD163CD7C686663F888D9F5FE8F0565 /* PBXTargetDependency */,
+				53CB4933B6A36899D998503A98A1B97D /* PBXTargetDependency */,
+				249547A0B4E2FEFBB7B8257786A3AE41 /* PBXTargetDependency */,
+			);
+			name = "Pods-Catalog-UnitTests";
+			productName = "Pods-Catalog-UnitTests";
+			productReference = 6289C31D5C29E6E5A509D4CC5609B6F2 /* Pods_Catalog_UnitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6DF05709535983600AB9BB2F65E2F9F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038267B797675C166151619E10594B9A /* CatalogExamples */,
+				C9A583E43C6259F242DDBE2D3B9DC117 /* CatalogUnitTests */,
+				688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */,
+				512EF039C4AACE5934A42541A9834DE1 /* Pods-Catalog-Catalog */,
+				D2335F6FD61483AAC8A9A37598501F75 /* Pods-Catalog-UnitTests */,
+				640DDFA196AD87B2711875C6E2217B75 /* Resistor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D273EF5EC0AAC5C98E7370A5C14F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74321D6191688088CBC77EAD263C94A7 /* GTCatalog-dummy.m in Sources */,
+				5CC5C69815FD0AF75FC8B7AA56A60DEF /* GTFNodeListViewController.m in Sources */,
+				DC4611A256CF23479FCA11C761F62558 /* GTFRuntime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5BC64D0D8791E23740DAD151546983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08AF1F44A17CA955C7E5A9AF792427A /* Pods-Catalog-UnitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72593420A5DE52571A911B637DE60BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7917944CF4AC9BF071CA90A3AEE9C341 /* Pods-Catalog-Catalog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CDEBD8541DF656379105736186FA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A2B9F98C66105A44E58D98F49E8A8F /* CatalogExamples-dummy.m in Sources */,
+				69BD40E6B337040CC3A3745C937960E3 /* ParallelResistorExample.m in Sources */,
+				B456D89D80E3D8FEEFC8E11137B06660 /* SeriesExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79007F2465C1487720081BEB74F1B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CF264446843A9B372484AFF1BF40AC /* CatalogUnitTests-dummy.m in Sources */,
+				074EAF9573924309732DF7FFA48A1F24 /* RESParallelResistorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD619D2A35A1F5D4FC0511CB0954CAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA2CE3A997363592B5F6B4A9FAC5B8D /* Resistor-dummy.m in Sources */,
+				9C5C2A52FACA36A0AD33E92035DF2B84 /* RESParallelResistor.m in Sources */,
+				1F26F3CAE745DEA76596F9A0CB07E865 /* RESSeriesResistor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249547A0B4E2FEFBB7B8257786A3AE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Resistor;
+			target = 640DDFA196AD87B2711875C6E2217B75 /* Resistor */;
+			targetProxy = F640B305DCB5CE5F5D01071A49D995E5 /* PBXContainerItemProxy */;
+		};
+		3AD9151BC996AF530F7A7395E2A2E9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Resistor;
+			target = 640DDFA196AD87B2711875C6E2217B75 /* Resistor */;
+			targetProxy = 52BBFEE2A0469BFA44E768974E8E2C8F /* PBXContainerItemProxy */;
+		};
+		4A3FF7D177EC7DA102930D2C7D99B3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CatalogExamples;
+			target = 038267B797675C166151619E10594B9A /* CatalogExamples */;
+			targetProxy = 29DF7A42579AEFFD28F7B73CE39E9E1C /* PBXContainerItemProxy */;
+		};
+		53CB4933B6A36899D998503A98A1B97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCatalog;
+			target = 688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */;
+			targetProxy = C3D4D9CA92C432F369932C0AFCB85A53 /* PBXContainerItemProxy */;
+		};
+		BDD163CD7C686663F888D9F5FE8F0565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CatalogUnitTests;
+			target = C9A583E43C6259F242DDBE2D3B9DC117 /* CatalogUnitTests */;
+			targetProxy = 29DB0C8DA98469B193CC65EBFE02AA9A /* PBXContainerItemProxy */;
+		};
+		CD92F466609983B4C286B9511794B00E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCatalog;
+			target = 688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */;
+			targetProxy = C302414DBB2A1E4F2E24EF17629D1DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1680816943E940F93D761AD7630B0F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FE317A2655F1DC97BD7F0E7EFF8B5B /* Pods-Catalog-UnitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Catalog-UnitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Catalog-UnitTests/Pods-Catalog-UnitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		460B6BC4B140708F9B28956580CED6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87ECD9E69EC5050B4149D7C95F93A40 /* CatalogUnitTests.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CatalogUnitTests/CatalogUnitTests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CatalogUnitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CatalogUnitTests/CatalogUnitTests.modulemap";
+				PRODUCT_MODULE_NAME = CatalogUnitTests;
+				PRODUCT_NAME = CatalogUnitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5223B5C70C964505C05DD4445EB5D486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C448B02DB3B9CC51BDE833E726553DAC /* GTCatalog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCatalog/GTCatalog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCatalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCatalog/GTCatalog.modulemap";
+				PRODUCT_MODULE_NAME = GTCatalog;
+				PRODUCT_NAME = GTCatalog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C0F716533B22CF2F2FD1D3BB1183F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B576DE51C0F03A413BB86B9A7CBDB507 /* Resistor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Resistor/Resistor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Resistor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Resistor/Resistor.modulemap";
+				PRODUCT_MODULE_NAME = Resistor;
+				PRODUCT_NAME = Resistor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643374673AD0BF840B8C5E19110B4B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D631476327FD021EA40AE418436754 /* CatalogExamples.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CatalogExamples/CatalogExamples-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CatalogExamples/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CatalogExamples/CatalogExamples.modulemap";
+				PRODUCT_MODULE_NAME = CatalogExamples;
+				PRODUCT_NAME = CatalogExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77F8E275927DFB50E5067919E1CDD022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B576DE51C0F03A413BB86B9A7CBDB507 /* Resistor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Resistor/Resistor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Resistor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Resistor/Resistor.modulemap";
+				PRODUCT_MODULE_NAME = Resistor;
+				PRODUCT_NAME = Resistor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79F8C665DD0088877C753936600B28FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D9DFF852A398EB97A2927463C440C9 /* Pods-Catalog-UnitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Catalog-UnitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Catalog-UnitTests/Pods-Catalog-UnitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8684DF1EA27B84AE9BE773AEA4205DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00A57C64691BC806E7B8F9D4836E1D1 /* Pods-Catalog-Catalog.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Catalog-Catalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Catalog-Catalog/Pods-Catalog-Catalog.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B1A3FAE7CECAC163602705B8CAAAF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D631476327FD021EA40AE418436754 /* CatalogExamples.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CatalogExamples/CatalogExamples-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CatalogExamples/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CatalogExamples/CatalogExamples.modulemap";
+				PRODUCT_MODULE_NAME = CatalogExamples;
+				PRODUCT_NAME = CatalogExamples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C9AEA1490D2DD544192CA0386D593D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C448B02DB3B9CC51BDE833E726553DAC /* GTCatalog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCatalog/GTCatalog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCatalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCatalog/GTCatalog.modulemap";
+				PRODUCT_MODULE_NAME = GTCatalog;
+				PRODUCT_NAME = GTCatalog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACD5A0402549FF74D4057D37F6F2E2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC8EC287AEC41E4D728F651967E2B2A /* Pods-Catalog-Catalog.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Catalog-Catalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Catalog-Catalog/Pods-Catalog-Catalog.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B16E217274531BC02FF11CB8D5DB238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87ECD9E69EC5050B4149D7C95F93A40 /* CatalogUnitTests.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CatalogUnitTests/CatalogUnitTests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CatalogUnitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CatalogUnitTests/CatalogUnitTests.modulemap";
+				PRODUCT_MODULE_NAME = CatalogUnitTests;
+				PRODUCT_NAME = CatalogUnitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B297AAE03896391ACAAFE04CDC956F /* Build configuration list for PBXNativeTarget "Pods-Catalog-UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1680816943E940F93D761AD7630B0F71 /* Debug */,
+				79F8C665DD0088877C753936600B28FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B3FF3AC0378FD17846DBCC24B2E3FD /* Build configuration list for PBXNativeTarget "CatalogExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643374673AD0BF840B8C5E19110B4B31 /* Debug */,
+				8B1A3FAE7CECAC163602705B8CAAAF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F6F62D89355F1EB44098703740B4FF /* Build configuration list for PBXNativeTarget "Pods-Catalog-Catalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8684DF1EA27B84AE9BE773AEA4205DD2 /* Debug */,
+				ACD5A0402549FF74D4057D37F6F2E2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AF60ECAB7BCD088E278E0C0DF722FB /* Build configuration list for PBXNativeTarget "GTCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9AEA1490D2DD544192CA0386D593D7 /* Debug */,
+				5223B5C70C964505C05DD4445EB5D486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4B94D7CDB2AD2D8AE8E6F06C659861 /* Build configuration list for PBXNativeTarget "Resistor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0F716533B22CF2F2FD1D3BB1183F74 /* Debug */,
+				77F8E275927DFB50E5067919E1CDD022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FC871685D2E2438E6CE7E803932CC8 /* Build configuration list for PBXNativeTarget "CatalogUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16E217274531BC02FF11CB8D5DB238F /* Debug */,
+				460B6BC4B140708F9B28956580CED6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,6 +1,0 @@
-use_frameworks!
-target 'GTCatalog_Tests' do
-  pod 'GTCatalog', :path => '../'
-  
-  
-end

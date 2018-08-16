@@ -1,0 +1,19 @@
+abstract_target 'Catalog' do
+  workspace 'Catalog.xcworkspace'
+  use_frameworks! 
+  
+  pod 'GTCatalog', :path => '../'
+  
+  # Define where the local pods live. This allows your conventions to depend on them.
+  pod 'Resistor', :path => 'components/Resistor'
+  
+  target "Catalog" do
+    project 'catalog/Catalog.xcodeproj'
+    pod 'CatalogExamples', :path => './'
+  end
+  
+  target "UnitTests" do
+    project 'catalog/Catalog.xcodeproj'
+    pod 'CatalogUnitTests', :path => './'
+  end
+end
